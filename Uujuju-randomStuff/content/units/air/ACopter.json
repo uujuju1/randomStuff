@@ -1,0 +1,50 @@
+{
+	"localizedName": "Helicade",
+	"description": "a small Copter with 2 fast shooting guns",
+	"health": 250,
+	"type": "flying",
+	"drag": 0.007,
+	"speed": 1,
+	"accel": 0.06,
+    "flying": true,
+    "lowAltitude": true,
+    "rotateShooting": true,
+    "faceTarget": true,
+    "circleTarget" : false,
+    "visualElevation": 0.25,
+    "rotateSpeed": 4,
+    "maxRange": 240,
+    "hitSize": 20,
+    "engineSize": 0,
+    "armor": 5,
+    "commandLimit": 3,
+    "research": {
+    	"parent": "copter-factory",
+    	"requirements": [
+    		{"item": "titanium", "amount": 1000},
+    		{"item": "silicon", "amount": 1000},
+    		{"item": "plastanium", "amount": 1000}
+    	]
+    },
+    "weapons": [
+        {
+            "name": "weapon-copter-basic",
+            "mirror": true,
+            "rotate": true,
+            "rotateSpeed": 4,
+            "x": 4,
+            "y": 8,
+            "reload": 10,
+            "shootY": 9,
+            "recoil": 1,
+            "bullet": {
+                "type": "BasicBulletType",
+                "damage": 25,
+                "speed": 8,
+                "lifetime": 20,
+                "width": 5,
+                "height": 10,
+            }
+        }
+    ]
+}
