@@ -6,7 +6,8 @@
 	"health": 1000,
 	"constructTime": 1800,
 	"upgrades": [
-		["BCopter", "CCopter"]
+		["BCopter", "CCopter"],
+		["BDrone", "CDrone"]
 	],
 	"consumes": {
 		"power": 6,

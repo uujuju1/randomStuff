@@ -12,6 +12,14 @@
 				{"item": "silicon", "amount": 15}
 			],
 			"time": 300,
+		},
+		{
+			"unit": "ADrone",
+			"requirements": [
+				{"item": "silicon", "amount": 15},
+				{"item": "compressed-spore-capsule", "amount": 15}
+			],
+			"time": 360,
 		}
 	],
 	"consumes": {
