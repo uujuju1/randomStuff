@@ -1,6 +1,6 @@
 # Random Stuff
 A mod that adds a bunch of random stuff for minustry.
-<br> Still in beta final release will be made when i make sure that everything is fixed and it will be v1.0 full release
+<br> This mod is archived now
 
 ## The mod adds: 
 `Items`: 3
