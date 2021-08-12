@@ -9,6 +9,6 @@ A mod that adds a bunch of random stuff for minustry.
 <br>`units`: 8
 <br>`planets`: 1
 
-##changeLog
--rapier and Scepter turrets resprite
-<br> -Added 3x3 and 4x4 turrets
+##changeLog:
+`-rapier and Scepter turrets resprite`
+<br> `-Added 3x3 and 4x4 turrets`
