@@ -12,3 +12,6 @@ A mod that adds a bunch of random stuff for minustry.
 ## Changelog:
 `sprites`: -scepter and rapier resprite
 <br>`content`: -added 3x3 and 4x4 turrets called TomNap and exoNop respectively
+<br>-added submersible conveyors and power nodes
+<br>-added naval purple units(coming in 0.5 probably)
+<br>-added bundles yaaay for PT_BR people that play my mod
