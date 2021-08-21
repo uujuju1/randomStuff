@@ -7,7 +7,6 @@ A mod that adds a bunch of random stuff for minustry.
 <br>`Blocks`: 10
 <br>`Turrets`: 2
 <br>`units`: 8
-<br>`planets`: 1
 
 ## Changelog:
 `sprites`: -scepter and rapier resprite
