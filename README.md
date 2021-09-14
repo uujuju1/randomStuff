@@ -4,8 +4,8 @@ A mod that adds a bunch of random stuff for minustry.
 
 ## The mod adds: 
 `Items`: 3
-<br>`Blocks`: 10
-<br>`Turrets`: 2
+<br>`Blocks`: 24
+<br>`Turrets`: 4
 <br>`units`: 12
 
 ## Changelog:
