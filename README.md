@@ -3,7 +3,7 @@ A mod that adds a bunch of random stuff for minustry.
 <br> Still in beta final release will be made when i make sure that everything is fixed and it will be v1.0 full release
 
 ## The mod adds: 
-`Items`: 3
+`Items`: 4
 <br>`Blocks`: 24
 <br>`Turrets`: 4
 <br>`units`: 12
