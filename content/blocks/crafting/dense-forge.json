@@ -1,0 +1,30 @@
+{
+	"name": "Dense Forge",
+	"description": "melts copper and lead under extreme pressure to make dense alloy",
+	"type": "GenericCrafter",
+	"health": 160,
+	"size": 2,
+	"craftTime": 60,
+	"craftEffect": "smelt",
+	"updateEffect": "none",
+	"ambientSound": "respawning",
+	"ambientSoundVolume": 0.5,
+	"category": "crafting",
+	"research": "silicon-smelter",
+	"consumes": {
+		"power": 1.5,
+		"items": {
+			"items": [
+				{"item": "lead", "amount": 7},
+				{"item": "copper", "amount": 5}
+			]
+		}
+	},
+	"requirements": [
+		{"item": "silicon", "amount": 85},
+		{"item": "titanium", "amount": 135},
+		{"item": "graphite", "amount": 75},
+		{"item": "lead", "amount": 225}
+	],
+	"outputItem": {"item": "dense-alloy", "amount": 3}
+}
