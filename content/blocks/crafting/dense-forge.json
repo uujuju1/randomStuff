@@ -7,8 +7,6 @@
 	"craftTime": 60,
 	"craftEffect": "smelt",
 	"updateEffect": "none",
-	"ambientSound": "respawning",
-	"ambientSoundVolume": 0.5,
 	"category": "crafting",
 	"research": "silicon-smelter",
 	"consumes": {

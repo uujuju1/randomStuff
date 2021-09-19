@@ -5,7 +5,7 @@
 	"size": 1,
 	"health": 400, 
 	"absorbLasers": true,
-	"requirements": [{"items": "notrite", "amount": 6}],
+	"requirements": [{"item": "notrite", "amount": 6}],
 	"category": "defense",
 	"research": "dense-wall"
 }

@@ -7,7 +7,9 @@
 	"constructTime": 1800,
 	"upgrades": [
 		["BCopter", "CCopter"],
-		["BDrone", "CDrone"]
+		["BDrone", "CDrone"],
+		["BBlaster", "CBlaster"],
+		["helium", "oxygen"]
 	],
 	"consumes": {
 		"power": 6,

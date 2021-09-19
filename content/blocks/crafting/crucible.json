@@ -1,0 +1,28 @@
+{
+	"type": "GenericSmelter",
+	"name": "Crucible",
+	"description": "melts dense alloy, coal, and titanium into dirium.",
+	"health": 80,
+	"size": 1,
+	"craftTime": 30,
+	"craftEffect": "smelt",
+	"updateEffect": "none",
+	"consumes": {
+		"power": 1,
+		"items": {
+			"items": [
+				{"item": "dense-alloy", "amount": 1},
+				{"item": "coal", "amount": 2},
+				{"item": "titanium", "amount": 1}
+			]
+		}
+	},
+	"requirements": [
+		{"item": "titanium", "amount": 30},
+		{"item": "dense-alloy", "amount": 25},
+		{"item": "silicon", "amount": 15}
+	],
+	"outputItem": {"item": "dirium", "amount": 1},
+	"category": "crafting",
+	"research": "plastanium-compressor"
+}

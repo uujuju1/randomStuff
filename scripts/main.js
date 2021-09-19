@@ -1,8 +1,8 @@
 // modded things
 require("units/heliCopters");
 require("units/drones");
-require("blocks/factories");
 require("units/carbon");
+require("units/blasters");
 
 // planets
 require("sectors");

@@ -23,7 +23,7 @@
 		}
 	],
 	"consumes": {
-		"power": 40,
+		"power": 3,
 	},
 	"requirements": [
 		{"item": "silicon", "amount": 85},

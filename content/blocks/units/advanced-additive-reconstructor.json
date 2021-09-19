@@ -7,7 +7,9 @@
 	"constructTime": 600,
 	"upgrades": [
 		["ACopter", "BCopter"],
-		["ADrone", "BDrone"]
+		["ADrone", "BDrone"],
+		["ABlaster", "BBlaster"],
+		["hydrogen", "helium"],
 	],
 	"consumes": {
 		"power": 1.5,

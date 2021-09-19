@@ -4,7 +4,7 @@
 	"description": "A wall with decent health and half the cost",
 	"size": 2,
 	"health": 1520,
-	"requirements": [{"items": "dense-alloy", "amount": 12}],
+	"requirements": [{"item": "dense-alloy", "amount": 12}],
 	"category": "defense",
 	"research": "dense-wall"
 }

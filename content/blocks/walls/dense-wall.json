@@ -4,7 +4,7 @@
 	"description": "A wall with decent health and half the cost",
 	"size": 1,
 	"health": 380,
-	"requirements": [{"items": "dense-alloy", "amount": 3}],
+	"requirements": [{"item": "dense-alloy", "amount": 3}],
 	"category": "defense",
 	"research": "titanium-wall"
 }

@@ -9,7 +9,8 @@
 	"constructTime": 6390,
 	"upgrades": [
 		["CCopter", "DCopter"],
-		["CDrone", "DDrone"]
+		["CDrone", "DDrone"],
+		["oxygen", "carbon"]
 	],
 	"consumes": {
 		"power": 9,

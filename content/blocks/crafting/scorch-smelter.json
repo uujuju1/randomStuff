@@ -1,9 +1,8 @@
 {
-	"localizedName": "Scorch Smelter",
+	"type": "GenericSmelter",
+	"name": "Scorch Smelter",
 	"description": "Creates Advanced alloy from scrap and surge",
-	"updateEffect": "none",
-	"ambientSound": "respawning",
-	"ambientSoundVolume": 0.5,
+	"craftTime": 90,
 	"category": "crafting",
 	"research": "alloy-smelter",
 	"consumes": {
