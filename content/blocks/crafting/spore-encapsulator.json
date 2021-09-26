@@ -1,0 +1,26 @@
+{
+	"type": "GenericCrafter",
+	"name": "Spore Encapsulator",
+	"description": "Encapsulate spores in silicon shells",
+	"craftTime": 30,
+	"craftEffect": "none",
+	"updateEffect": "smelt",
+	"health": 160,
+	"size": 2,
+	"category": "crafting",
+	"research": "cultivator",
+	"consumes": {
+		"items": {
+			"items": [
+				{"item": "spore-pod", "amount": 2},
+				{"item": "silicon", "amount": 1}
+			]
+		}
+	},
+	"requirements": [
+		{"item": "silicon", "amount": 50},
+		{"item": "graphite", "amount": 75},
+		{"item": "copper", "amount": 125}
+	],
+	"outputItem": {"item": "compressed-spore-capsule", "amount": 1}
+}
