@@ -1,7 +1,0 @@
-{
-	"name": "oxidized",
-	"reloadMultiplier": 0.5,
-	"damage": 0.1,
-	"affinities": ["wet"],
-	"buildSpeedMultiplier": 0.5,
-}
