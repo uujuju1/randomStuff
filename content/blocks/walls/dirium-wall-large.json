@@ -1,0 +1,10 @@
+{
+	"type": "wall",
+	"name": "Large Dirium Wall",
+	"description": "An alternative to thorium walls.",
+	"size": 2,
+	"health": 3200,
+	"requirements": [{"item": "dirium", "amount": 24}],
+	"category": "defense",
+	"research": "dirium-wall"
+}

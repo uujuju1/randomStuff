@@ -1,0 +1,15 @@
+{
+	"type": "CoreBlock",
+	"health": 5000,
+	"itemCapacity": 5000,
+	"size": 3,
+	"category": "effect",
+	"research": "core-shard",
+	"requirements": [
+		{"item": "graphite", "amount": 2000},
+		{"item": "dirium", "amount": 1400}
+	],
+	"unitType": "trident",
+	"unitCapModifier": 15,
+	
+}

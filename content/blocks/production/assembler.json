@@ -1,0 +1,28 @@
+{
+	"type": "GenericSmelter",
+	"name": "Assembler",
+	"description": "Assembles empty capsules.",
+	"health": 160,
+	"size": 2,
+	"craftTime": 60,
+	"craftEffect": "smelt",
+	"updateEffect": "none",
+	"flameColor": "A5D4D2",
+	"consumes": {
+		"power": 0.5,
+		"items": {
+			"items": [
+				{"item": "silicon", "amount": 3},
+				{"item": "graphite", "amount": 3},
+			]
+		}
+	},
+	"requirements": [
+		{"item": "silicon", "amount": 60},
+		{"item": "titanium", "amount": 35},
+		{"item": "graphite", "amount": 55}
+	],
+	"outputItem": {"item": "capsule", "amount": 2},
+	"category": "crafting",
+	"research": "graphite-press"
+}

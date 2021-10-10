@@ -1,0 +1,36 @@
+{
+	"type": "GenericSmelter",
+	"name": "Dense Furnace",
+	"description": "Bigger dense forge, needs liquid oxygen for more pressure.",
+	"size": 3,
+	"health": 220,
+	"craftTime": 90,
+	"craftEffect": "smelt",
+	"updateEffect": "none",
+	"hasItems": true,
+	"hasPower": true,
+	"hasLiquids": true,
+	"itemCapacity": 30,
+	"liquidCapacity": 60,
+	"consumes": {
+		"power": 2,
+		"items": {
+			"items": [
+				{"item": "copper", "amount": 5},
+				{"item": "lead", "amount": 8}
+			]
+		},
+		"liquid": {"liquid": "liquid-oxygen", "amount": 3}
+	},
+	"requirements": [
+		{"item": "plastanium", "amount": 55},
+		{"item": "dense-alloy", "amount": 75},
+		{"item": "dirium", "amount": 35},
+		{"item": "silicon", "amount": 200},
+		{"item": "graphite", "amount": 85}
+	],
+	"outputItem": {"item": "dense-alloy", "amount": 7},
+	"category": "crafting",
+	"research": "silicon-crucible",
+	"buildVisibility": "shown"
+}

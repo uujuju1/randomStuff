@@ -1,0 +1,50 @@
+{
+	"type": "flying",
+	"name": "Eruptor",
+	"description": "A drone with atrax like cannons",
+	"health": 730,
+	"speed": 1.5,
+	"flying": true,
+    "lowAltitude": true,
+    "rotateShooting": true,
+    "faceTarget": true,
+    "circleTarget" : false,
+    "visualElevation": 0.25,
+    "rotateSpeed": 3.5,
+    "maxRange": 160,
+    "hitSize": 12,
+    "engineSize": 0,
+    "armor": 50,
+    "commandLimit": 4,
+    "research": {
+    	"parent": "ADrone",
+    	"requirements": [
+    		{"item": "graphite", "amount": 1250},
+    		{"item": "silicon", "amount": 2250}
+		]
+    },
+    "weapons": [
+    	{
+    		"name": "weapon-drone-slag",
+    		"mirror": true,
+    		"x": 4,
+    		"y": 0,
+    		"rotate": true,
+    		"rotateSpeed": 4,
+    		"reload": 5,
+    		"alternate": true,
+    		"recoil": 0.1,
+    		"bullet": {
+    			"type": "LiquidBulletType",
+    			"damage": 9,
+    			"speed": 2,
+    			"lifetime": 80,
+    			"liquid": "slag",
+                "status": "burning",
+    			"orbSize": 2,
+    			"puddleSize": 3,
+    			"drag": 0.01
+    		}
+    	}
+    ]
+}

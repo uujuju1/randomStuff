@@ -1,0 +1,11 @@
+{
+	"type": "mech",
+	"localizedName": "Dozenate",
+	"description": "explode when it shoots 12 times.",
+	"health": 800,
+	"speed": 0.60,
+    "hitSize": 8,
+    "mechSideSway": 0.25,
+    "maxRange": 80,
+    "research": "BBlaster"
+}

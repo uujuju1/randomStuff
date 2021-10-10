@@ -1,0 +1,26 @@
+{
+	"type": "GenericSmelter",
+	"name": "Scorch Smelter",
+	"description": "Creates Advanced alloy from scrap and surge",
+	"craftTime": 90,
+	"category": "crafting",
+	"research": "alloy-smelter",
+	"consumes": {
+		"power": 1,
+		"items": {
+			"items": [
+				{"item": "scrap", "amount": 10},
+				{"item": "surge-alloy", "amount": 1},
+			]
+		}
+	},
+	"requirements": [
+		{"item": "silicon", "amount": 125},
+		{"item": "surge-alloy", "amount": 25},
+		{"item": "thorium", "amount": 65},
+		{"item": "graphite", "amount": 45}
+	],
+	"outputItem": {"item": "advanced-alloy", "amount": 3},
+	"health": 420,
+	"size": 3,
+}

@@ -1,0 +1,34 @@
+{
+	"name": "Scepter",
+	"description": "A mini scepter cannon",
+	"type": "ItemTurret",
+	"health": 550,
+	"size": 2,
+	"inaccuracy": 5,
+	"reloadTime": 30,
+	"targetAir": true,
+	"targetGround": true,
+	"shootSound": "artillery",
+	"shootEffect": "casing1",
+	"category": "turret",
+	"research": "p-rapier",
+	"buildVisibility": "shown",
+	"range": 288,
+	"ammoTypes": {
+		"dense-alloy": {
+			"type": "basicBulletType",
+			"damage": 50,
+			"speed": 8,
+			"lifetime": 36,
+			"pierce": true,
+			"width": 9,
+			"height": 14,
+		}
+	},
+	"requirements": [
+		{"item": "dense-alloy", "ammount": 35},
+		{"item": "silicon", "ammount": 125},
+		{"item": "thorium", "ammount": 85},
+		{"item": "titanium", "ammount": 55},
+	]
+}

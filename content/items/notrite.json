@@ -1,0 +1,8 @@
+{
+	"name": "notrite",
+	"description": "A natural magnet.",
+	"color": "959CBD",
+	"cost": 2,
+	"hardness": 3,
+	"research": "graphite"
+}
