@@ -1,0 +1,7 @@
+{
+	"name": "Magnetite",
+	"description": "The strongest magnet that can be made in serpulo.",
+	"research": "graphite",
+	"cost": 5,
+	"color": "4D514D"
+}

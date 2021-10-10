@@ -1,0 +1,40 @@
+{
+	"type": "naval",
+	"name": "Helium",
+	"description": "Disables unit weapons for a short amount of time",
+	"health": 1250,
+	"drag": 0.15,
+	"speed": 0.9,
+	"maxRange": 160,
+	"hitSize": 13,
+	"rotateSpeed": 2.6,
+	"rotateShooting": false,
+	"trailLength": 20,
+	"trailX": 5.5,
+	"trailY": -4,
+	"trailScl": 1.9,
+	"weapons": [
+		{
+			"name": "weapon-atom-fuse",
+			"reload": 60,
+			"x": 4,
+			"y": -4,
+			"mirror": true,
+			"alternate": true,
+			"rotate": true,
+			"rotateSpeed": 3,
+			"shootSound": "shotgun",
+			"bullet": {
+				"type": "ShrapnelBulletType",
+				"damage": 10,
+    			"length": 80,
+    			"width": 12,
+				"status": "disarmed",
+				"frontColor": "007f7f",
+				"backColor": "003f3f",
+				"statusDuration": 20,
+			}
+		}
+	],
+	"research": "hydrogen"
+}

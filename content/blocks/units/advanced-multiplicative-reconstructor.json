@@ -1,0 +1,33 @@
+{
+	"type": "Reconstructor",
+	"name": "Advanced Multiplicative Reconstructor",
+	"description": "Rebuilds Copters and other things into the 3rd tier.",
+	"size": 5,
+	"health": 1000,
+	"constructTime": 1800,
+	"upgrades": [
+		["BCopter", "CCopter"],
+		["BDrone", "CDrone"],
+		["BBlaster", "CBlaster"],
+		["helium", "oxygen"]
+	],
+	"consumes": {
+		"power": 6,
+		"items": {
+			"items": [
+				{"item": "silicon", "amount": 130},
+				{"item": "titanium", "amount": 80},
+				{"item": "metaglass", "amount": 40},
+			]
+		}
+	},
+	"requirements": [
+		{"item": "lead", "amount": 650},
+		{"item": "titanium", "amount": 350},
+		{"item": "thorium", "amount": 650},
+		{"item": "silicon", "amount": 450}
+	],
+	"category": "units",
+	"research": "advanced-additive-reconstructor",
+	
+}
