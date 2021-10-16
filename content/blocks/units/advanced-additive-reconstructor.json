@@ -1,0 +1,32 @@
+{
+	"type": "Reconstructor",
+	"name": "Advanced Additive Reconstructor",
+	"description": "Rebuilds Copters and other things to the 2nd tier.",
+	"size": 3,
+	"health": 360,
+	"constructTime": 600,
+	"upgrades": [
+		["ACopter", "BCopter"],
+		["ADrone", "BDrone"],
+		["ABlaster", "BBlaster"],
+		["hydrogen", "helium"],
+		["magnetA", "magnetB"]
+	],
+	"consumes": {
+		"power": 1.5,
+		"items": {
+			"items": [
+				{"item": "graphite", "amount": 30},
+				{"item": "silicon", "amount": 50}
+			]
+		}
+	},
+	"requirements": [
+		{"item": "silicon", "amount": 90},
+		{"item": "copper", "amount": 200},
+		{"item": "lead", "amount": 120},
+	],
+	"category": "units",
+	"research": "copter-factory",
+	
+}

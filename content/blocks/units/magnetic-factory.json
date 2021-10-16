@@ -1,0 +1,28 @@
+{
+	"name": "Magnetic Factory",
+	"description": "Makes magnetic units.",
+	"health": 160,
+	"size": 3,
+	"type": "unitFactory",
+	"plans": [
+		{
+			"unit": "magnetA",
+			"requirements": [
+				{"item": "magnetite", "amount": 6},
+				{"item": "silicon", "amount": 15}
+			],
+			"time": 300,
+		}
+	],
+	"consumes": {
+		"power": 3,
+	},
+	"requirements": [
+		{"item": "silicon", "amount": 125},
+		{"item": "titanium", "amount": 75},
+		{"item": "graphite", "amount": 50},
+		{"item": "magnetite", "amount": 65} 
+	],
+	"category": "units",
+	"research": "legacy-constructor",
+}

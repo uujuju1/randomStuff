@@ -1,0 +1,11 @@
+{
+	"type": "Wall",
+	"name": "Notrite Wall",
+	"description": "A wall with a natural magnetic field that prevents lasers and electricity from pierce this wall",
+	"size": 1,
+	"health": 400, 
+	"absorbLasers": true,
+	"requirements": [{"item": "notrite", "amount": 6}],
+	"category": "defense",
+	"research": "dense-wall"
+}

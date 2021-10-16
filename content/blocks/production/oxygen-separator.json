@@ -1,0 +1,21 @@
+{
+	"localizedName": "Oxygen Separator",
+	"description": "Separates oxygen from water.",
+	"size": 2,
+	"health": 160,
+	"craftTime": 10,
+	"hasLiquids": true,
+	"liquidCapacity": 60,
+	"updateEffect": "none",
+	"consumes": {
+		"liquid": {"liquid": "water", "amount": 6}
+	},
+	"requirements": [
+		{"item": "silicon", "amount": 50},
+		{"item": "metaglass", "amount": 25},
+		{"item": "graphite", "amount": 25}
+	],
+	"outputLiquid": {"liquid": "liquid-oxygen", "amount": 1},
+	"category": "crafting",
+	"research": "water-extractor"
+}
