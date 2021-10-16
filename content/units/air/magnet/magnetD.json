@@ -1,0 +1,44 @@
+{
+	"type": "flying",
+	"name": "Collector",
+	"description": "charges a || BIG SHOT ||.",
+	"health": 24000,
+	"speed": 0.7,
+	"accel": 0.04,
+	"drag": 0.04,
+	"rotateSpeed": 2,
+	"flying": true,
+	"lowAltitude": true,
+	"research": "magnetC",
+	"weapons": [
+		{
+			"name": "weapon-magnet-sniper",
+			"reload": 110,
+            "cooldownTime": 90,
+            "mirror": false,
+            "x": 0,
+            "y": -16,
+            "rotateSpeed": 1.4,
+            "rotate": true,
+            "shootY": 23,
+            "shake": 6,
+            "recoil": 10.5,
+            "shadow": 50,
+            "shootSound": "railgun",
+            "shots": 1,
+            "ejectEffect": "none",
+            "bullet": {
+            	"type": "RailBulletType",
+            	"shootEffect": "railShoot",
+                "length": 500,
+                "updateEffectSeg": 60,
+                "pierceEffect": "railHit",
+                "updateEffect": "railTrail",
+                "hitEffect": "massiveExplosion",
+                "smokeEffect": "shootBig2",
+                "damage": 1250,
+                "pierceDamageFactor": 0.5
+            }
+		}
+	]
+}

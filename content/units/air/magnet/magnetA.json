@@ -1,0 +1,47 @@
+{
+	"type": "flying",
+	"localizedName": "Pusher",
+	"description": "Pushes units with energy.",
+	"health": 530,
+	"speed": 2,
+	"accel": 0.08,
+	"drag": 0.01,
+	"flying": true,
+	"maxRange": 120,
+	"research": "mono",
+	"lowAltitude": true,
+	"weapons": [
+		{
+			"name": "weapon-magnet-frag",
+			"reload": 30,
+			"recoil": 1,
+			"mirror": true,
+			"x": 4.5,
+			"y": -2.5,
+			"bullet": {
+				"damage": 15,
+				"speed": 4,
+				"lifetime": 30,
+				"knockback": 1,
+				"frontColor": "8AA3F4",
+				"backColor": "5462C4",
+				"fragBullets": 2,
+				"fragBullet": {
+					"damage": 10,
+					"speed": 1,
+					"lifetime": 16,
+					"frontColor": "8AA3F4",
+					"backColor": "5462C4",
+					"fragBullets": 2,
+					"fragBullet": {
+						"damage": 7,
+						"speed": 1,
+						"lifetime": 8,
+						"frontColor": "8AA3F4",
+						"backColor": "5462C4",
+					}
+				}
+			}
+		}
+	]
+}

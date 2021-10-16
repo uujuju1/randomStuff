@@ -1,0 +1,59 @@
+{
+	"type": "flying",
+	"name": "Induction",
+	"description": "inducts heat into 4 separate beams",
+	"health": 9000,
+	"speed": 1.3,
+	"flying": true,
+	"accel": 0.04,
+	"drag": 0.016,
+	"lowAltitude": true,
+	"rotateSpeed": 5,
+	"hitSize": 32,
+	"maxRange": 120,
+	"research": "magnetB",
+	"weapons": [
+		{
+			"name": "weapon-magnet-meltdown",
+			"reload": 180,
+			"mirror": true,
+			"shake": 2,
+			"shootY": 7,
+			"rotate": true,
+			"recoil": 1,
+			"rotateSpeed": 3,
+			"cooldownTime": 180,
+			"x": 5,
+			"y": -1,
+ 			"bullet": {
+				"type": "ContinuousLaserBulletType",
+				"damage": 25,
+				"length": 120,
+				"width": 4,
+				"shake": 1,
+				"lifetime": 60,
+			}
+		},
+		{
+			"name": "weapon-magnet-meltdown",
+			"reload": 180,
+			"mirror": true,
+			"shake": 2,
+			"shootY": 7,
+			"rotate": true,
+			"recoil": 1,
+			"rotateSpeed": 3,
+			"cooldownTime": 180,
+			"x": 8,
+			"y": 6,
+ 			"bullet": {
+				"type": "ContinuousLaserBulletType",
+				"damage": 25,
+				"length": 120,
+				"width": 4,
+				"shake": 1,
+				"lifetime": 60,
+			}
+		}
+	]
+}

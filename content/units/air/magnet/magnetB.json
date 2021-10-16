@@ -1,0 +1,31 @@
+{
+	"type": "flying",
+	"localizedName": "Point",
+	"description": "Mainly a defensive unit. Has 2 point defense weapons.",
+	"health": 820,
+	"speed": 1.7,
+    "accel": 0.04,
+    "drag": 0.016,
+    "flying": true,
+    "maxRange": 120,
+    "hitSize": 18,
+    "lowAltitude": true,
+    "research": "magnetA",
+    "engineOffset": 3,
+    "weapons": [
+        {
+            "type": "PointDefenseWeapon",
+            "name": "weapon-magnet-point",
+            "reload": 10,
+            "targetInterval": 10,
+            "targetSwitchInterval": 15,
+            "mirror": true,
+            "alternate": true,
+            "rotate": true,
+            "rotateSpeed": 2,
+            "x": 3.5,
+            "y": 1.5,
+            "maxRange": 120
+        }
+    ]
+}
