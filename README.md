@@ -21,3 +21,4 @@ A mod that adds a bunch of random stuff for minustry.
 ## Note: 
 some stuff of the mod may or may not be exactly the same in the repo and the latest release
 <br> if you wanna copy the mod copy from the latest release not from main
+<br> this repo will be archived if you wanna see more updates go to https://github.com/uujuju1/creatiive
